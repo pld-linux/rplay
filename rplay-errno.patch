@@ -1,0 +1,20 @@
+--- rplay-3.3.2/rplayd/misc.c.orig	1999-03-10 08:58:03.000000000 +0100
++++ rplay-3.3.2/rplayd/misc.c	2004-04-11 03:48:24.794524352 +0200
+@@ -40,6 +40,7 @@
+ #include <sys/time.h>
+ #include <sys/signal.h>
+ #include <math.h>
++#include <errno.h>
+ #include "sound.h"
+ #include "timer.h"
+ 
+--- rplay-3.3.2/rplayd/timer.c.orig	1999-03-10 08:58:04.000000000 +0100
++++ rplay-3.3.2/rplayd/timer.c	2004-04-11 03:53:28.614718336 +0200
+@@ -29,6 +29,7 @@
+ #include <sys/signal.h>
+ #include <stdio.h>
+ #include <unistd.h>
++#include <errno.h>
+ #include "rplayd.h"
+ #include "timer.h"
+ 
