@@ -35,7 +35,7 @@ xpilot, xlockmore, xboing, fvwm i ctwm.
 Summary:	rplay header file
 Summary(pl):	Plik nag³ówkowy rplay
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 rplay header file.
@@ -47,7 +47,7 @@ Plik nag³ówkowy rplay.
 Summary:	rplay static library
 Summary(pl):	Statyczna biblioteka rplay
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 rplay static library.
