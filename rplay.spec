@@ -7,6 +7,7 @@ License:	GPL
 Group:		Libraries
 Source0:	http://rplay.doit.org/dist/%{name}-%{version}.tar.gz
 # Source0-md5:	e39888f6bea32e1c8cf4a8880b416e56
+Patch0:		%{name}-errno.patch
 URL:		http://rplay.doit.org/
 BuildRequires:	autoconf
 BuildRequires:	libgsm-devel
@@ -57,6 +58,7 @@ Statyczna biblioteka rplay.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__autoconf}
@@ -71,6 +73,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	prefix=$RPM_BUILD_ROOT%{_prefix} \
 	exec_prefix=$RPM_BUILD_ROOT%{_prefix} \
+	libdir=$RPM_BUILD_ROOT%{_libdir} \
 	mandir=$RPM_BUILD_ROOT%{_mandir} \
 	infodir=$RPM_BUILD_ROOT%{_infodir}
 
