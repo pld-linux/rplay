@@ -10,7 +10,7 @@ URL:		http://rplay.doit.org/
 BuildRequires:	autoconf
 BuildRequires:	libgsm-devel
 BuildRequires:	readline-devel
-#BuildRequires:	rx
+BuildRequires:	rx
 Requires(post,postun):	/sbin/ldconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -58,9 +58,9 @@ Statyczna biblioteka rplay.
 %setup -q
 
 %build
-cd rx
-%{__autoconf}
-cd ..
+#cd rx
+#%{__autoconf}
+#cd ..
 %{__autoconf}
 CFLAGS="%{rpmcflags} -D_GNU_SOURCE"
 %configure
