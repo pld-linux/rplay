@@ -58,9 +58,6 @@ Statyczna biblioteka rplay.
 %setup -q
 
 %build
-#cd rx
-#%{__autoconf}
-#cd ..
 %{__autoconf}
 CFLAGS="%{rpmcflags} -D_GNU_SOURCE"
 %configure
