@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	http://rplay.doit.org/dist/%{name}-%{version}.tar.gz
+# Source0-md5:	e39888f6bea32e1c8cf4a8880b416e56
 URL:		http://rplay.doit.org/
 BuildRequires:	autoconf
 BuildRequires:	libgsm-devel
