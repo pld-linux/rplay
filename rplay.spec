@@ -2,7 +2,7 @@ Summary:	Flexible network audio system
 Summary(pl):	Elastyczny sieciowy system d¼wiêku
 Name:		rplay
 Version:	3.3.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Libraries
 Source0:	http://rplay.doit.org/dist/%{name}-%{version}.tar.gz
