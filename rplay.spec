@@ -1,5 +1,5 @@
 Summary:	Flexible network audio system
-Summary(pl.UTF-8):   Elastyczny sieciowy system dźwięku
+Summary(pl.UTF-8):	Elastyczny sieciowy system dźwięku
 Name:		rplay
 Version:	3.3.2
 Release:	2
@@ -34,7 +34,7 @@ xpilot, xlockmore, xboing, fvwm i ctwm.
 
 %package devel
 Summary:	rplay header file
-Summary(pl.UTF-8):   Plik nagłówkowy rplay
+Summary(pl.UTF-8):	Plik nagłówkowy rplay
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -46,7 +46,7 @@ Plik nagłówkowy rplay.
 
 %package static
 Summary:	rplay static library
-Summary(pl.UTF-8):   Statyczna biblioteka rplay
+Summary(pl.UTF-8):	Statyczna biblioteka rplay
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
