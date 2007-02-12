@@ -1,5 +1,5 @@
 Summary:	Flexible network audio system
-Summary(pl):	Elastyczny sieciowy system d¼wiêku
+Summary(pl.UTF-8):   Elastyczny sieciowy system dÅºwiÄ™ku
 Name:		rplay
 Version:	3.3.2
 Release:	2
@@ -24,36 +24,36 @@ either UDP or TCP. rplay audio servers can be configured to share
 sound files with each other. Support for rplay is included in several
 applications. These include xpilot, xlockmore, xboing, fvwm, and ctwm.
 
-%description -l pl
-rplay to elastyczny sieciowy system d¼wiêku pozwalaj±cy na odtwarzanie
-d¼wiêku na i z lokalnych i zdalnych systemów. D¼wiêki mog± byæ
-odtwarzane z lub bez przesy³ania danych po sieci przy u¿yciu UDP lub
-TCP. Serwery d¼wiêku rplay mog± byæ skonfigurowane tak, by dzieli³y
-pliki d¼wiêkowe miêdzy siebie. Obs³ugê rplay ma kilka aplikacji, w tym
+%description -l pl.UTF-8
+rplay to elastyczny sieciowy system dÅºwiÄ™ku pozwalajÄ…cy na odtwarzanie
+dÅºwiÄ™ku na i z lokalnych i zdalnych systemÃ³w. DÅºwiÄ™ki mogÄ… byÄ‡
+odtwarzane z lub bez przesyÅ‚ania danych po sieci przy uÅ¼yciu UDP lub
+TCP. Serwery dÅºwiÄ™ku rplay mogÄ… byÄ‡ skonfigurowane tak, by dzieliÅ‚y
+pliki dÅºwiÄ™kowe miÄ™dzy siebie. ObsÅ‚ugÄ™ rplay ma kilka aplikacji, w tym
 xpilot, xlockmore, xboing, fvwm i ctwm.
 
 %package devel
 Summary:	rplay header file
-Summary(pl):	Plik nag³ówkowy rplay
+Summary(pl.UTF-8):   Plik nagÅ‚Ã³wkowy rplay
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 rplay header file.
 
-%description devel -l pl
-Plik nag³ówkowy rplay.
+%description devel -l pl.UTF-8
+Plik nagÅ‚Ã³wkowy rplay.
 
 %package static
 Summary:	rplay static library
-Summary(pl):	Statyczna biblioteka rplay
+Summary(pl.UTF-8):   Statyczna biblioteka rplay
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 rplay static library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka rplay.
 
 %prep
